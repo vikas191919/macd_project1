@@ -142,11 +142,13 @@ public void the_user_selects_first_displayed_location_and_click_on_done() throws
 	page.selfirst();
 	Thread.sleep(1000);
 	page.done();
-    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	Thread.sleep(2000); 
+    //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 }
 
-@Then("an error message should be displayed {string}")
-public void an_error_message_should_be_displayed(String string) {
+@Then("an error message should be displayed.")
+public void an_error_message_should_be_displayed() {
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	page.locerrormsg();
 	driver.quit();
 }

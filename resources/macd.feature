@@ -37,10 +37,10 @@ Scenario Outline: user should search and select a location
 Given user is on the homepage and click on location
 When user click on search bar and enters a "<location1>"
 When the user selects first displayed location and click on done
-Then an error message should be displayed "We do not serve this location as of now."
+Then an error message should be displayed.
 Examples: - 
 |location1|
-| Markapur |
+|vizianagaram|
 
 #the user can search for items with keywords and the results matching with the keywords are displayed
 @search

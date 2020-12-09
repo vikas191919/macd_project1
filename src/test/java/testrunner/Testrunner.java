@@ -8,8 +8,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(plugin = {"json:target/cucumber.json"},
 features = "resources"
 ,glue={"stepdefinition"}
-,tags={"@login"}
-//,tags={"@invalidlocation"}
+//,tags={"@login"}
+,tags={"@invalidlocation"}
 //,tags={"@test"}
 )
 

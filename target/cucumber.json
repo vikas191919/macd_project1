@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 8534794000,
+              "duration": 10473844700,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 14,
-        "name": "The user should be able to successfully login into the website",
+        "line": 43,
+        "name": "user should search and select a location",
         "description": "",
-        "id": "user-should-add-an-item-to-cart;the-user-should-be-able-to-successfully-login-into-the-website;-;2",
+        "id": "user-should-add-an-item-to-cart;user-should-search-and-select-a-location;-;2",
         "after": [
           {
             "result": {
-              "duration": 23700,
+              "duration": 43400,
               "status": "passed"
             },
             "match": {
@@ -34,59 +34,55 @@
         "steps": [
           {
             "result": {
-              "duration": 173307600,
+              "duration": 2485578000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User is on home page and click on login/signup",
+            "line": 37,
+            "name": "user is on the homepage and click on location",
             "match": {
-              "location": "Stepdefinitions.user_is_on_home_page_and_click_on_login_signup()"
+              "location": "Stepdefinitions.user_is_on_the_homepage_and_click_on_location()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 118055400,
+              "duration": 3338379500,
               "status": "passed"
             },
-            "line": 9,
-            "name": "User clicks on the Login Via Password option",
-            "match": {
-              "location": "Stepdefinitions.user_clicks_on_the_Login_Via_Password_option()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3127625300,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User enters mobile number as \"9908409453\" and password as \"vikas1235\"",
+            "line": 38,
+            "name": "user click on search bar and enters a \"vizianagaram\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"9908409453\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"vikas1235\"",
-                  "offset": 58
+                  "val": "\"vizianagaram\"",
+                  "offset": 38
                 }
               ],
-              "location": "Stepdefinitions.user_enters_mobile_number_as_and_password_as(String,String)"
+              "location": "Stepdefinitions.user_click_on_search_bar_and_enters_a(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2772247300,
+              "duration": 3345498000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "login should be successful",
+            "line": 39,
+            "name": "the user selects first displayed location and click on done",
             "match": {
-              "location": "Stepdefinitions.login_should_be_successful()"
+              "location": "Stepdefinitions.the_user_selects_first_displayed_location_and_click_on_done()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1076505100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "an error message should be displayed.",
+            "match": {
+              "location": "Stepdefinitions.an_error_message_should_be_displayed()"
             },
             "keyword": "Then "
           }
@@ -96,7 +92,7 @@
             "name": "@test"
           },
           {
-            "name": "@login"
+            "name": "@invalidlocation"
           }
         ]
       }
