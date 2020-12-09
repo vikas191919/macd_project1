@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8534794000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinitions.initialize()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "The user should be able to successfully login into the website",
+        "description": "",
+        "id": "user-should-add-an-item-to-cart;the-user-should-be-able-to-successfully-login-into-the-website;-;2",
+        "after": [
+          {
+            "result": {
+              "duration": 23700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinitions.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 173307600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on home page and click on login/signup",
+            "match": {
+              "location": "Stepdefinitions.user_is_on_home_page_and_click_on_login_signup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118055400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Login Via Password option",
+            "match": {
+              "location": "Stepdefinitions.user_clicks_on_the_Login_Via_Password_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3127625300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters mobile number as \"9908409453\" and password as \"vikas1235\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9908409453\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"vikas1235\"",
+                  "offset": 58
+                }
+              ],
+              "location": "Stepdefinitions.user_enters_mobile_number_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2772247300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "login should be successful",
+            "match": {
+              "location": "Stepdefinitions.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "user should add an item to cart",
+    "description": "",
+    "id": "user-should-add-an-item-to-cart",
+    "keyword": "Feature",
+    "uri": "resources/macd.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
