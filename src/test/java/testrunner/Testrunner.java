@@ -9,8 +9,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 features = "resources"
 ,glue={"stepdefinition"}
 //,tags={"@login"}
-,tags={"@invalidlocation"}
-//,tags={"@test"}
+//,tags={"@invalidlocation"}
+,tags={"@test"}
 )
 
 
